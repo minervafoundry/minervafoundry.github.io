@@ -14,9 +14,9 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
+  text-align: center;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
-  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,8 +30,8 @@ a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
 table {
-  font-size: inherit;
   font: 100%;
+  font-size: inherit;
 }
 
 
@@ -42,10 +42,35 @@ table {
 /*****************************************************************************/
 
 
-html { 
-  background: url(images/minerva-foundry.jpg) no-repeat center center fixed; 
+body { 
+  background: url(/images/minerva-foundry.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1.2em;
+}
+
+h1, .tag-line {
+  display: inline-block;
+  float:right;
+  clear: right;
+  text-align: left;
+}
+
+h1 {
+  margin: 50px 260px 0 10px;
+  color: #0089fd;
+  font-size: 26px;
+  line-height: 1.2em;
+}
+
+.tag-line {
+  margin: 0 6px 0 0;
+  font-size: 104px;
+  line-height: 1.2em;
 }
