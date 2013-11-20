@@ -48,11 +48,15 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-body {
   font-family: 'Titillium Web', sans-serif;
   line-height: 1.2em;
+  font-weight: 600;
+}
+
+.container {
+  float: right;
+  margin-right: 45px;
+  width: 470px;  
 }
 
 h1, .tag-line {
@@ -73,4 +77,47 @@ h1 {
   margin: 0 6px 0 0;
   font-size: 104px;
   line-height: 1.2em;
+}
+
+/* form */
+form {
+  display: block;
+  float: right;
+  margin-top: 50px;  
+}
+
+input {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+}
+
+input[type="email"] {
+  padding: 10px 15px;
+  width: 201px;
+  float: right;
+  background: rgba(255,255,255,0.5);
+  border: 1px solid transparent;
+  border-bottom: none;
+  color: black;
+}
+
+input[type="submit"] {
+  float: right;
+  clear: right;
+  width: 233px;
+  padding: 10px 30px;
+  border: none;
+  background: #0089fd;
+  color: white;
+}  
+
+input[type="submit"]:hover  {
+  background: black;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #0089fd;
+  border-bottom: none;
 }
