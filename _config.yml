@@ -1,10 +1,10 @@
-title:        Hyde
-tagline:      'Hyde, a Jekyll theme'
-description:  'An elegant open source and mobile first theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:          http://andhyde.com
-version:      1.1.1
+title:        Minerva Foundry
+tagline:      'A Product Incubator Lead by Strong Ethics'
+description:  'Going Up'
+url:          http://minervafoundry.com
+version:      0.2
 author:
-  name:       ''
+  name:       'Minerva Foundry'
   email:      ''
 markdown:     rdiscount
 permalink:    pretty
