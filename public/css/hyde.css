@@ -224,10 +224,20 @@ a:focus {
  * Sidebar banner for housing site name, and intro.
  */
 
+/* Home Page Full Screen Masthead */
+.fullpage .masthead {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+}
+
 /* Sidebar masthead */
 .masthead {
   color: #222;
-  background: #0089fd url('/public/images/minerva-foundry.jpg') no-repeat center center;
+  background: #eee url('/public/images/minerva-foundry.jpg') no-repeat center center;
   background-size: cover;
   text-align: center;
 }
@@ -300,6 +310,9 @@ a:focus {
   .colophon-links li {
     display: block;
     margin: 0;
+  }
+.fullpage .masthead h1 {
+    text-align: right;
   }
 }
 
