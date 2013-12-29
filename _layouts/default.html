@@ -14,7 +14,7 @@
 
   </script>
 
-  <body class="{{ page.class }}">
+  <body class="{% if paginator.page == 1 %}{{ page.class }}{% endif %}">
 
     <header class="masthead">
       <div class="masthead-inner">
