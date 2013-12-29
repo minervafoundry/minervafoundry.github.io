@@ -7,6 +7,6 @@ author:
   name:       'Minerva Foundry'
   email:      ''
 markdown:     rdiscount
-permalink:    pretty
+permalink:    /:title/
 pygments:     true
 paginate:     5
