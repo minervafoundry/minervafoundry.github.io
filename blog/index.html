@@ -15,7 +15,7 @@ title: Blog
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-meta">{{ post.date | date_to_string }} » <em>{{ post.author }}</em></span>
 
     {{ post.content }}
   </div>
