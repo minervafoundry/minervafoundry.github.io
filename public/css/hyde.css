@@ -225,8 +225,12 @@ a:focus {
  */
 
 /* Home Page Full Screen Masthead */
+.fullpage {
+  overflow: hidden;
+}
+
 .fullpage .masthead {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
