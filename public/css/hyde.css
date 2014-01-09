@@ -209,7 +209,7 @@ img {
 
 a {
   font-weight: 600;
-  color: #EB0D4B;
+  color: #000;
   text-decoration: none;
 }
 a:hover,
@@ -260,7 +260,7 @@ a:focus {
 .masthead h1 a,
 .masthead h1 a:hover, 
 .masthead h1 a:focus {
-  color: #0089fd;
+  color: #000;
   text-decoration: none;
 }
 .masthead .lead {
