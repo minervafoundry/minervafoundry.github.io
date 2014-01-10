@@ -223,7 +223,7 @@ a:focus {
  * Forms
  *
  */
-input[type="text"] {
+input[type="email"] {
   padding: 9px 20px;
   border: 1px solid black;
   margin: 0;
