@@ -1,5 +1,5 @@
 ---
-layout: Default
+layout: post
 title: One awesome blog, coming right up!
 
 ---
