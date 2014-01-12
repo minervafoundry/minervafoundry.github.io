@@ -3,7 +3,9 @@ layout: default
 title: Minerva Foundry - The Collaboraticve Incubator
 ---
 
-# Minerva Foundry - The Collaboraticve Incubator
+# Minerva Foundry
+
+### The Collaboraticve Incubator
 
 Our team develops and seeks out ideas for great projects. We collaborate with each other and others to realize these ideas. And, we’re always looking for exciting people and projects that fit with what we’re working towards.
 
